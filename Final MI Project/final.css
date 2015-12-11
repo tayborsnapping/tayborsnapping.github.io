@@ -1,0 +1,114 @@
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+
+.column {
+  margin: 0 auto;
+  width: 50%;
+  background: #e3e3e3;
+  padding: 1em;
+
+}
+</style>
+
+
+@media (max-width: 600px);{
+  .column {
+    width: 100%
+  }
+}
+
+@media
+(-webkite-min-device-pixrl-ratio:2),
+(min-resolution: 192dpi) {
+    /* Retina */
+}
+
+div.menu3
+{
+    /*width:500px;margin:0 auto;*//*Uncomment this line to make the menu center-aligned.*/
+    text-align:center;
+    font-size:0;
+    height: 25px;
+    *position:relative;*top:1px;/*Hacks for IE6 & IE7 */
+}
+
+div.menu3 a
+{
+    display: inline-block;
+    padding: 0 20px;
+    margin-right:1px; /* It specifies the distance between each tab */
+    background:#F7F7F7;
+    color:Black;
+    text-decoration:none;
+    font: normal 12px Arial;
+    line-height: 24px;
+    border:1px solid #CAD0DB;
+    border-bottom:0;
+    color:#666;
+    vertical-align:top;/*ChangeSet#2*/
+    text-decoration:none;
+}
+
+div.menu3 a:hover, div.menu3 a.current
+{
+    background:#E9ECF0;
+    line-height: 25px;
+    color:#000;
+}
+
+div.menu3sub
+{
+    height:6px;
+    border:1px solid #CAD0DB;
+    background:#E9ECF0;
+}
+
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#slider .slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+body{
+font: 16px Arial, sans-serif;
+}
